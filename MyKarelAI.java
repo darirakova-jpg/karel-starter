@@ -1,6 +1,6 @@
 import stanford.karel.*;
 
-public class NewWorld extends Karel {
+public class MyKarelAI extends Karel {
 
     public void run() {
         move();
