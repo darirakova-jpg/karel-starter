@@ -1,6 +1,6 @@
 import stanford.karel.*;
 
-public class MyKarelAI extends Karel {
+public class NewWorld extends Karel {
 
     public void run() {
         move();
@@ -10,21 +10,17 @@ public class MyKarelAI extends Karel {
         pickBeeper();
 
         turnLeft();
-        move();
-        pickBeeper();
+        moveAndPickBeeper();
 
         turnLeft();
         move();
         turnRight();
-        move();
-        pickBeeper();
-
-        turnAround();
+        moveAndPickBeeper();
     }
 
-    private void turnAround() {
-        turnLeft();
-        turnLeft();
+    private void moveAndPickBeeper() {
+        move();
+        pickBeeper();
     }
 
     private void turnRight() {

@@ -1,19 +1,13 @@
 Karel Checkpoint Notes:
 
-My original work: 
-    I wrote MyKarel.java and created my own Karel program.
-
-My custom world:
+What I wrote:
     I created worlds/NewWorld.w using the Karel World editor and wrote NewWorld.java to solve the world.
 
-AI-assisted work: 
-    I used ChatGPT to help create MyKarelAI.java, a separate AI-assisted version of my Karel program.
+What the AI changed: 
+    Added moveAndPickBeeper() to combine repeated movement and beeper-picking instructions, removed the unused turnAround() method, and improved formatting.
 
-What AI helped with: 
-    AI helped me review the program structure, organize the solution, and suggest improvements to the code.
+What I checked: 
+    I ran the updated program in my Karel world to verify that it collected all three beepers.
 
-Errors and fixes: 
-    I checked the class name and file name, and fixed any errors that appeared while running the program.
-
-Testing: 
-    I ran the program in the Karel environment to check whether the robot completed the intended task. I checked the final result after making changes.
+What I learned: 
+    Helper methods make code shorter and easier to reuse without changing the sequence of actions.
